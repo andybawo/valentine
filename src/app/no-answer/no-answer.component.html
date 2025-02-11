@@ -1,0 +1,21 @@
+<div class="main-container">
+  <img src="/images/giphy.gif" alt="" style="height: 400px; width: 600px" />
+  <h4>Please You're breaking my heart 😭</h4>
+  <h4>Give it another thought please 🥺🥺🥺🥺🥺</h4>
+  <div class="decision-button">
+    <button
+      class="positive"
+      routerLink="/yes-answer"
+      [ngStyle]="{ 'height.px': positiveHeight, 'width.px': positiveWidth }"
+    >
+      Yes my love😍
+    </button>
+    <button
+      class="negative"
+      (click)="noBigger()"
+      [ngStyle]="{ 'height.px': negativeHeight, 'width.px': negativeWidth }"
+    >
+      Still no 🤮
+    </button>
+  </div>
+</div>

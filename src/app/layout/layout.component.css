@@ -1,0 +1,10 @@
+.design-container {
+  height: 680px;
+  width: 100%;
+  border: 10px dashed purple;
+
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin: 10px;
+}

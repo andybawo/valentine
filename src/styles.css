@@ -1,1 +1,50 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-color: pink;
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.main-container {
+  height: 500px;
+  width: 1200px;
+  justify-content: center;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.decision-button {
+  display: flex;
+  gap: 20px;
+}
+
+.positive {
+  height: 80px;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+}
+.positive:hover {
+  background-color: rgb(46, 213, 46);
+  color: white;
+  cursor: pointer;
+}
+
+.negative {
+  height: 80px;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+}
+.negative:hover {
+  background-color: rgb(244, 11, 11);
+  color: white;
+  cursor: pointer;
+}
