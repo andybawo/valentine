@@ -15,7 +15,11 @@
     <button
       class="negative"
       (click)="noBigger()"
-      [ngStyle]="{ 'height.px': negativeHeight, 'width.px': negativeWidth }"
+      [ngStyle]="{
+        'height.px': negativeHeight,
+        'width.px': negativeWidth,
+        'font-size.px': negativeFont
+      }"
     >
       Still no 🤮
     </button>
