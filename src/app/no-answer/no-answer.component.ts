@@ -14,10 +14,10 @@ export class NoAnswerComponent {
   negativeWidth = 120;
   negativeHeight = 40;
   noBigger() {
-    if (this.negativeHeight > 10 && this.negativeWidth > 90) {
+    if (this.negativeHeight > 10 && this.negativeWidth > 20) {
       this.negativeHeight -= 5;
       this.negativeWidth -= 10;
-      this.positiveHeight += 15;
+      this.positiveHeight += 25;
       this.positiveWidth += 15;
     }
   }
