@@ -29,7 +29,10 @@
 @media screen and (max-width: 480px) and (min-width: 343px) {
   .design-container {
     width: 320px;
-    height: 700px;
-    margin: auto;
+    margin: 0;
+    padding: 0;
+    height: 80vh;
+    position: relative;
+    top: 50px;
   }
 }
