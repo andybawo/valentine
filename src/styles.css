@@ -86,3 +86,43 @@ body {
     margin: auto;
   }
 }
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 280px;
+    position: relative;
+    top: -40px;
+  }
+  .image img {
+    width: 100%;
+    height: 100%;
+  }
+  .main-container {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+  }
+  .main-container h4 {
+    font-size: small;
+  }
+  .positive {
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .negative {
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+  }
+  .decision-button {
+    font-size: small;
+  }
+}

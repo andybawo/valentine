@@ -9,10 +9,10 @@ import { RouterLink } from '@angular/router';
   styleUrl: './no-answer.component.css',
 })
 export class NoAnswerComponent {
-  positiveWidth = 200;
-  positiveHeight = 80;
-  negativeWidth = 200;
-  negativeHeight = 80;
+  positiveWidth = 120;
+  positiveHeight = 40;
+  negativeWidth = 120;
+  negativeHeight = 40;
   noBigger() {
     if (this.negativeHeight > 10 && this.negativeWidth > 90) {
       this.negativeHeight -= 5;
